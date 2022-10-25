@@ -13,9 +13,14 @@ function verifica(r){
         console.log("numero impar")
     }
 }
+function multiplica(a,b){
+    return a * b
+}
 
-var res = soma(1, 4)
+let res = soma(1, 4)
 verifica(res)
-console.log(res)
+let res2 = multiplica(3, 4)
+verifica(res2)
+console.log(res, res2)
 
 
